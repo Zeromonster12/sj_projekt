@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domov</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -22,7 +22,7 @@
         <div class="container login col-10">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-12">
-                    <h2 class="mb-4 fw-bold">Prihlásiť sa</h2>
+                    <h2 class="mb-4 fw-bold text-center">Prihlásiť sa</h2>
 
                     <form method="POST">
                         <div class="form-group mb-3">
@@ -38,8 +38,11 @@
                         <div class="d-flex align-items-center justify-content-center">
                             <input type="submit" name="submit" class="btn btn-main mt-5" value="Prihlásiť sa">
                         </div>
+                        <hr class="mt-5">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <p class="mt-3">Nemáte účet? <a href="register.php" style="text-decoration: none;">Registrujte sa tu</a></p>
+                        </div>
                     </form>
-
                 </div>
             </div>
         </div>

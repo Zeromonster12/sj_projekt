@@ -16,7 +16,7 @@
                     <li class="nav-item"><a class="nav-link mx-2" href="profile.php"><i class="fas fa-user mx-1"></i> Profil</a></li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link mx-2" href="logout.php"><i class="fas fa-sign-out-alt mx-1"></i> Odhlásiť sa</a></li>
+                    <li class="nav-item logout"><a class="nav-link mx-2" href="logout.php"><i class="fas fa-sign-out-alt mx-1"></i> Odhlásiť sa</a></li>
                 </ul>
             </div>
         </div>
